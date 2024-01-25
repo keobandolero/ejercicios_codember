@@ -15,7 +15,6 @@ def veces_que_aparece(mensaje):
             conteo_palabras[animal] += 1
 
     #* Construir la cadena de resultado
-    print(conteo_palabras.items())
     for animal, times in conteo_palabras.items():
         resultado += f"{animal}{times}"
 
